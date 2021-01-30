@@ -1,7 +1,7 @@
 {
-  "name": "SIXT",
+  "name": "webCrawler",
   "version": "1.0.0",
-  "description": "code task",
+  "description": "code",
   "main": "src/index.js",
   "author": "Sabrine Abdelghani",
   "license": "MIT",
