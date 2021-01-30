@@ -101,3 +101,10 @@ export const extractLibraries = async (searchTerm, limit = 5) => {
     return error;
   }
 };
+
+
+// Deduplication algorithms for the same Javascript libraries with different names
+// We can use JaroWinkler or alternative to determine if two library names refer to the same library.
+export const Deduplicate = () => {
+   // TODOD write an algorithm to deduplcation
+}

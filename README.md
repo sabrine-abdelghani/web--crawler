@@ -15,3 +15,9 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ### `yarn test`
 Launches the test runner in the interactive watch mode
+
+## Technologie
+
+- **React** - Open-source JavaScript library
+- **Webpack** - Module bundler
+- **Jest** - JavaScript testing framework
