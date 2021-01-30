@@ -1,0 +1,76 @@
+/* -------------------------------------------------------------------------- */
+/*                                   LOADER                                   */
+/* -------------------------------------------------------------------------- */
+
+.loader-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+	display: inline-block;
+	position: relative;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: #ff5f00;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+/* ---------------------------------- LEFT ---------------------------------- */
+
+.left-circle {
+	animation-name: left-circle;
+	animation-timing-function: ease-in;
+}
+
+@keyframes left-circle {
+	0% { top: 0; }
+	50% { top: 50px; }
+	60% { 
+		transform: scale(1.15); 
+		background-color: #ff5f00;
+		opacity: 0.1;
+	}
+	100% { top: 0px; }
+}
+
+/* --------------------------------- MIDDLE --------------------------------- */
+
+.middle-circle {
+	animation-name: middle-circle;
+	animation-timing-function: linear;
+}
+
+@keyframes middle-circle {
+	0% { top: 0; }
+	50% { 
+		top: 50px; 
+		transform: scale(1.2);
+		opacity: 0.1;
+	}
+	70% { background-color: #ff5f00; }
+	100% { top: 0; }
+}
+
+/* ---------------------------------- RIGHT --------------------------------- */
+
+.right-circle {
+	animation-name: right-circle;
+	animation-timing-function: ease-out;
+}
+
+@keyframes right-circle {
+	0% { top: 0; }
+	50% { 
+		top: 50px; 
+		transform: scale(1.2); 
+		background-color: #ff5f00;
+		opacity: 0.1;
+	}
+	100% { top: 0; }
+}
