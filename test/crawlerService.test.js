@@ -1,4 +1,4 @@
-/* -------------------------------- function -------------------------------- */
+/* -------------------------------- Functions -------------------------------- */
 
 import { scrapeHTMLData, findJavascriptLibraryName } from '../src/lib/crawler.service';
 
@@ -14,7 +14,7 @@ describe('scrapeHTMLDATA', function () {
   });
 });
 
-/* ----------------------------- find J library ----------------------------- */
+/* ----------------------------- find Js library ----------------------------- */
 
 describe('findJavascriptLibraryName', function () {
   it('Finds Javascript Library name from url', function () {
